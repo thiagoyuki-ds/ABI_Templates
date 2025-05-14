@@ -1,0 +1,45 @@
+/* Estilos customizados para o template AB-Inbev */
+
+/* Configurações gerais */
+body {
+  font-family: 'Avantt-Light', Arial, sans-serif;
+  color: #333333; /* Cor de texto padrão */
+  background-color: #FFFFFF; /* Cor de fundo */
+}
+
+/* Cabeçalhos */
+h1, h2, h3, h4, h5, h6 {
+  color: #FFCC00; /* Cor de destaque para títulos */
+  font-family: 'Avantt-semiBold', Arial, sans-serif;
+}
+
+/* Links */
+a {
+  color: #FF6600; /* Cor dos links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Logotipo */
+.header-logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-logo img {
+  max-width: 200px; /* Tamanho do logotipo */
+}
+
+
+
+.quarto-title-block .quarto-title-banner {
+  background-image: url(img/logo.png); /* Path to your logo */
+  background-size: 300px; /* Adjust the size of the logo */
+  background-position: right; /* Position the logo on the left */
+  background-repeat: no-repeat; /* Avoid repeating the logo */
+  padding-left: 10px; /* Add space to the left for text alignment */
+  background-origin: content-box; /* Defines where the background is positioned */
+}

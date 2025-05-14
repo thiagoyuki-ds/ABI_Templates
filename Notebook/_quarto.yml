@@ -1,0 +1,22 @@
+# Configuração do template Quarto
+title-block-banner: "#000000"
+format:
+  html:
+    embed-resources: true
+    smooth-scroll: true
+    theme: ab-inbev-theme
+    css: [styles.css]
+    toc: true # Gera um sumário automático
+    toc-depth: 2
+    number-sections: true
+    fig-width: 6
+    fig-height: 4
+    fig-align: center
+    code-fold: true
+    code-summary: "Show code"
+    
+
+lang: En
+
+project:
+  output-dir: results/
