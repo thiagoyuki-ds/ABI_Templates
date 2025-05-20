@@ -1,0 +1,59 @@
+---
+title: "AB InBev Presentation"
+author: "Your Name"
+date: "2025-05-19"
+title-slide-attributes:
+  data-background-image: img/Slide1.JPG
+  data-background-size: contain
+  data-background-opacity: "0.5"
+format:
+  revealjs:
+    theme: abi.scss
+    reveal_options:
+      slideNumber: true
+      progress: true
+      history: true
+      center: true
+      transition: slide
+    slide-number: true
+    logo: img/logo.png
+    footer: "Footer text"
+    transition: fade
+    toc: true
+    incremental: true
+---
+
+# Welcome to AB InBev {background-image='img/Slide3.JPG' background-size="contain"}
+
+## Our Mission 
+
+- Brewing the world’s most loved beers
+- Building meaningful experiences
+
+---
+
+
+## Key Achievements 
+ 
+- Global presence in 50+ countries
+- Leading brands: Budweiser, Stella Artois, Corona
+
+```{.python code-line-numbers="6-8"}
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+---
+
+## Thank You
+
+- Questions?
+- Contact: your.email@ab-inbev.com
