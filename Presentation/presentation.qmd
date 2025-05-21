@@ -1,7 +1,11 @@
 ---
 title: "AB InBev Presentation"
-author: "Your Name"
-date: "2025-05-19"
+author: 
+  - name: "Thiago Yuki"
+    affiliation: "Global TestOps"
+    email: "thiago.yuki@ab-inbev.com"
+date: last-modified
+date-format: "DD/MM/YYYY"
 title-slide-attributes:
   data-background-image: img/Slide1.JPG
   data-background-size: contain
@@ -21,6 +25,7 @@ format:
     transition: fade
     toc: true
     incremental: true
+    self-contained: true
 ---
 
 # Welcome to AB InBev {background-image='img/Slide3.JPG' background-size="contain"}
@@ -52,6 +57,53 @@ plt.show()
 ```
 
 ---
+
+## Graphical Representation
+
+```{python}
+
+import altair as alt
+
+from vega_datasets import data
+cars = data.cars()
+
+alt.Chart(cars).mark_point().encode(
+    x='Horsepower',
+    y='Miles_per_Gallon',
+    color='Origin',
+).properties(
+    width=900,
+    height=400
+).interactive()
+
+
+```
+
+## Plotly Graph
+
+```{python}
+
+import plotly.express as px
+
+fig = px.scatter(
+  cars,
+  x="Horsepower",
+  y="Miles_per_Gallon",
+  color="Origin",
+  hover_data=["Name"],
+  title="Horsepower vs. Miles per Gallon by Origin"
+)
+fig.show()
+
+
+```
+
+
+## Slide Title
+
+- Green ^[A footnote]
+- Brown
+- Purple
 
 ## Thank You
 

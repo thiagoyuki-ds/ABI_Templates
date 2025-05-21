@@ -1,0 +1,42 @@
+/* AB-InBev Custom SCSS Theme for Quarto Dashboards */
+
+/*-- scss:defaults --*/
+$abibev-primary: #d3a238;
+$abibev-secondary: #000000;
+$abibev-accent: #f5e003;
+$abibev-bg: #fffbe6;
+$abibev-text: #222;
+$abibev-font: 'Avantt', 'Montserrat', 'Arial', sans-serif;
+
+/*-- scss:rules --*/
+
+/* Base Styles */
+
+
+/* Header */
+.navbar, .quarto-title-banner {
+    background-color: $abibev-secondary;
+    color: $abibev-bg;
+    border-bottom: 3px solid $abibev-accent;
+}
+
+
+
+/* Sidebar */
+
+
+/* Buttons */
+
+/* Cards and Panels */
+
+
+/* Tables */
+
+
+/* Links */
+
+
+/* Footer */
+
+
+/* Custom Utilities */
